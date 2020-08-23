@@ -1,0 +1,71 @@
+footer {
+    background: #000;
+}
+.more-info-list {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+.more-info-list__item {
+    width: 20%;
+    margin: 50px;
+    color: #fff;
+    padding: 50px 0;
+}
+.more-info-list__item h4 {
+    font-size: 25px;
+    color: #ff0e83;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.more-info-list__item p {
+    line-height: 24px;
+    font-size: 14px;
+}
+.working-time li {
+    list-style: none;
+    font-size: 13px;
+    border-bottom: 1px dotted;
+    padding: 0px 0px 7px;
+    margin-bottom: 10px;
+}
+
+.working-time li span {
+    float: right;
+}
+.mail-box {
+    padding: 8px;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.more-info-list__item > .form-group > button {
+    background-size: cover;
+    background: #ff0e83;
+    border-radius: 10px;
+    padding: .4em 1em;
+    width: 50%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    transition: 0.5s all;
+}
+.more-info-list__item > .form-group > button:hover {
+    background: #fff;
+    transition: 0.5s all;
+}
+.more-info-list__item > .form-group > button > a {
+    text-decoration: none;
+    color: #000;
+}
+.copy-right {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+}
+.copy-right a {
+    color: #ff0e83;
+    text-decoration: none;
+}

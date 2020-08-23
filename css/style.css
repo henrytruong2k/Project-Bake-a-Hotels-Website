@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.to-top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 26px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent: 100%;
+    background: url('../img/to-top.png') no-repeat 0px 0px;
+    background-size: 40px;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.to-top.active-to-top {
+    transform: translateY(-55px);
+    opacity: 1;
+    transition: 0.5s all;
+}
+html {
+    scroll-behavior: smooth;
+}
