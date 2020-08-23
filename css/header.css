@@ -4,9 +4,10 @@
     display: flex;
     justify-content: space-around;
     padding: 0 250px;   
-    position: sticky;
+    position: fixed;
     top: 0; 
-    /* not working */ 
+    z-index: 999;
+    width: 100%;
 }
 .top-bar__nav-link > ul {
     display: flex;

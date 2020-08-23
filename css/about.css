@@ -555,12 +555,14 @@
 .contact-input {
     margin: 0px 120px;
     padding: 20px;
+    text-align: center;
 }
 .contact-input > input {
     width: 500px;
     padding: 15px;
     margin: 15px;
     border-radius: 5px;
+    border: 1px solid #000;
 }
 .contact-input > textarea {
     width: 1035px;
@@ -569,11 +571,16 @@
     border-radius: 0;
     resize: none;
     height: 200px;
+    border: 1px solid #000;
+}
+.contact-input > textarea:focus,
+.contact-input > input:focus {
+    border: 5px solid #78b5e5;
 }
 .contact-send {
-    margin-top: 0;
-    margin-left: 155px;
-    width: 1035px;
+    text-align: center;
+    margin: 0 157px;
+    width: 100%;
 }
 .contact-send input[type="submit"]{
     color: #000;
@@ -592,6 +599,7 @@
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;    
+    cursor: pointer;
 }
 .contact-send:hover input[type="submit"] {
     transition: 0.5s all;
