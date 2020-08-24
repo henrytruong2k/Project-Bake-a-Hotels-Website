@@ -562,7 +562,8 @@
     padding: 15px;
     margin: 15px;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1
+    px solid #000;
 }
 .contact-input > textarea {
     width: 1035px;
