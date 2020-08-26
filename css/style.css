@@ -5,6 +5,9 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .to-top {
     text-decoration: none;
@@ -29,4 +32,5 @@ body {
 }
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }

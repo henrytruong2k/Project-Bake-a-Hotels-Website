@@ -4,10 +4,11 @@
     display: flex;
     justify-content: space-around;
     padding: 0 250px;   
-    position: fixed;
-    top: 0; 
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow: hidden;
     z-index: 999;
-    width: 100%;
 }
 .top-bar__nav-link > ul {
     display: flex;
@@ -28,6 +29,7 @@
 .top-bar__nav-link > ul > li > a {
     color: #fff;
     text-decoration: none;
+    
 }
 .top-bar__logo > a:hover {
     text-decoration: none;

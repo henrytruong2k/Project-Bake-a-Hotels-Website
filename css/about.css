@@ -553,8 +553,8 @@
     width: 100%;
 }
 .contact-input {
-    margin: 0px 120px;
-    padding: 20px;
+    margin: 0 120px;
+    width: 100%;
     text-align: center;
 }
 .contact-input > input {
@@ -562,8 +562,6 @@
     padding: 15px;
     margin: 15px;
     border-radius: 5px;
-    border: 1
-    px solid #000;
 }
 .contact-input > textarea {
     width: 1035px;
@@ -572,16 +570,12 @@
     border-radius: 0;
     resize: none;
     height: 200px;
-    border: 1px solid #000;
-}
-.contact-input > textarea:focus,
-.contact-input > input:focus {
-    border: 5px solid #78b5e5;
+    border: 2px solid #000;
 }
 .contact-send {
-    text-align: center;
-    margin: 0 157px;
     width: 100%;
+    margin: 0 157px;
+    text-align: center;
 }
 .contact-send input[type="submit"]{
     color: #000;
