@@ -42,9 +42,8 @@
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;
-    padding: 0 12px;
+    margin: 0 12px;
 }
 .top-bar__nav-link > ul > .active-page > a {
     color:#ff0e83;
-        
 }
